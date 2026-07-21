@@ -4,7 +4,7 @@
 
 This project demonstrates a supervised machine learning workflow for predicting heart disease risk using clinical health data.
 
-The goal was to develop a machine learning model and gain hands-on experience with AWS machine learning services through to deployment.
+The goal was to gain hands-on experience with Amazon SageMaker Canvas by building and evaluating a supervised machine learning model for healthcare risk prediction.
 
 ---
 
@@ -13,7 +13,7 @@ The goal was to develop a machine learning model and gain hands-on experience wi
 - Build a classification model for cardiovascular disease risk prediction
 - Perform data preprocessing and feature engineering
 - Train and evaluate machine learning models
-- Explore AWS SageMaker capabilities for healthcare AI use
+-  Gain practical experience with AWS cloud-based machine learning services
 
 ---
 
@@ -31,26 +31,17 @@ The dataset contains clinical features associated with cardiovascular health inc
 
 ---
 
-## Machine Learning Approach
+## Machine Learning Workflow
 
-Workflow:
-
-1. Data loading
-2. Exploratory data analysis
-3. Data preprocessing
-4. Feature engineering
-5. Model training
-6. Model evaluation
-
+1. Created an Amazon SageMaker Domain
+2. Launched Amazon SageMaker Canvas
+3. Imported the heart disease dataset
+4. Explored and prepared the data
+5. Built a supervised machine learning model
+6. Evaluated model performance using SageMaker Canvas
 
 Models explored:
-
-- Logistic Regression
-- Random Forest
 - XGBoost
-
----
-
 
 ### Programming
 
@@ -59,21 +50,19 @@ Models explored:
 - NumPy
 - Scikit-learn
 
-
 ### AWS
 
+- Amazon SageMaker Canvas
 - Amazon SageMaker
-- SageMaker Canvas
 - Amazon S3
+- AWS Management Console
 
-
----
 
 ## Results
 
-The final model demonstrated the ability to classify individuals according to cardiovascular risk patterns.
+This project provided hands-on experience building a supervised machine learning workflow using Amazon SageMaker Canvas for heart disease risk prediction.
 
-Evaluation metrics:
+Model performance was evaluated within SageMaker Canvas using standard classification metrics, including:
 
 - Accuracy
 - Precision
@@ -82,9 +71,3 @@ Evaluation metrics:
 - ROC-AUC
 
 ---
-
-## Future Improvements
-
-- Deploy model as an API endpoint
-- Add explainable AI methods (SHAP)
-- Incorporate more clinical variables

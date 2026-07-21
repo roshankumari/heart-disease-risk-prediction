@@ -60,4 +60,6 @@ Model performance was evaluated within SageMaker Canvas using standard classific
 - F1-score
 - ROC-AUC
 
-
+### In Progress
+- Clinical Knowledge Assistant (RAG) using Amazon Bedrock
+- Predictive Analytics Pipeline using AWS Glue and Python

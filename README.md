@@ -7,7 +7,7 @@ The goal was to gain hands-on experience with Amazon SageMaker Canvas by buildin
 
 
 ## Objectives
-- Build a classification model for cardiovascular disease risk prediction
+- Build a supervised machine learning model for heart disease risk prediction
 - Perform data preprocessing and feature engineering
 - Train and evaluate machine learning models
 -  Gain practical experience with AWS cloud-based machine learning services
@@ -26,6 +26,7 @@ The dataset contains clinical features associated with cardiovascular health inc
 
 
 ## Machine Learning Workflow
+This project was completed using Amazon SageMaker Canvas through the AWS Management Console.
 1. Created an Amazon SageMaker Domain
 2. Launched Amazon SageMaker Canvas
 3. Imported the heart disease dataset
@@ -60,6 +61,4 @@ Model performance was evaluated within SageMaker Canvas using standard classific
 - F1-score
 - ROC-AUC
 
-### In Progress
-- Clinical Knowledge Assistant (RAG) using Amazon Bedrock
-- Predictive Analytics Pipeline using AWS Glue and Python
+

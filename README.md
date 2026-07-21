@@ -1,4 +1,4 @@
-# Heart Disease Risk Prediction using Amazon SageMaker
+# Heart Disease Risk Prediction using Amazon SageMaker (AWS)
 
 ## Project Overview
 This project demonstrates a supervised machine learning workflow for predicting heart disease risk using clinical health data.
